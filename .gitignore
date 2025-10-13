@@ -1,0 +1,61 @@
+# dependencies
+node_modules/
+.pnpm-store/
+.bun/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/patches/
+
+# build output
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.vite/
+
+# environment files
+.env
+.env.*
+!.env.example
+
+# system files
+.DS_Store
+Thumbs.db
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# test coverage
+coverage/
+*.lcov
+
+# misc
+*.local
+*.lock-wscript
+
+# Optional: if you use eslint, prettier cache, etc.
+.eslintcache
+.prettiercache
+
+# Optional: if you use Mac or Windows
+Icon?
+ehthumbs.db
+Desktop.ini
